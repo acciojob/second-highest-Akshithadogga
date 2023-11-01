@@ -12,7 +12,7 @@
 			//Write your code here
 			let length=arr.length;
 			if(length<=1){
-				return "-Infinity";
+				return -Infinity;
 			}
 			let max=arr[0];
 			let min=arr[1];
@@ -28,13 +28,14 @@
 				}
 				else if(arr[i]>second_max){
 					second_max=arr[i];
+					
 				}
 			}
 			if(first_max==second_max){
-			 return "-Infinity";
+			 return -Infinity;
 			}
 			return second_max;
-			
+		
 		}
 
 		function Main() {
